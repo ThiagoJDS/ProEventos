@@ -11,6 +11,7 @@
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
+
         },
         "@schematics/angular:application": {
           "strict": true
@@ -34,7 +35,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/ngx-toastr/toastr.css"
             ],
             "scripts": []
           },
